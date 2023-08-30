@@ -1,0 +1,23 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.row {
+  display: flex;
+  gap: .6rem;
+  margin-bottom: .6rem;
+
+  mat-form-field {
+    width: 100%;
+  }
+}
+
+.dialog-actions {
+  margin: 0 1rem 1rem;
+  button {
+    // width: 100%;
+    flex: 1;
+  }
+}
